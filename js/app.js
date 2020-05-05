@@ -10,4 +10,12 @@ var seccionesPagina = new fullpage("#fullpage", {
   css3: true, // Si usara CSS3 o javascript.
   easingcss3: "ease-out", // Curva de velocidad del efecto.
   loopBottom: false, // Regresa a la primera seccion siempre y cuando se ya haya llegado a la ultima sección y el ususario siga scrolleando.
+  // ──────────────────────────────────────────────────
+  //   :::::: Barra de navegación
+  // ──────────────────────────────────────────────────
+  navigation: true, // Muesta la barra de navegación.
+  menu: "#menu", // Menu de navegación.
+  anchors: ["inicio", "productos", "contacto"], // Anclas, las usamos para identificar cada seccion y poder acceder a ellas con el menu.
+  navigationTooltips: ["Inicio", "Productos", "Contacto"], // Tooltips que mostrara por cada boton.
+  showActiveTooltip: false, // Mostrar tooltip activa.
 });
