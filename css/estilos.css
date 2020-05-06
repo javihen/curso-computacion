@@ -51,6 +51,22 @@ h1 {
   color: #000;
 }
 /* --------------------------- */
+/* Posicionamiento del footer  */
+/* --------------------------- */
+footer {
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:40px;
+  width:100%;
+  background: rgba(0, 0, 0, 0.281);
+  text-align: center;
+  font-family: oswald;
+  font-size: 25px;
+}
+
+
+/* --------------------------- */
 /*Menu de navegacion*/
 /* --------------------------- */
 
@@ -255,4 +271,14 @@ img {
   background: url(../media/fondo10.jpg) no-repeat;
   background-position: center center;
   background-size: cover;
+}
+/* ------------------------ */
+/* Estilos de hipervinculo  */
+/* ------------------------ */
+.collapse .card a{
+  text-decoration: none;
+}
+
+.collapse .card .badge{
+  float: right;
 }

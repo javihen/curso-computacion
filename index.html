@@ -28,6 +28,7 @@
 	</nav>
 	<main id="fullpage">
 		<header class="section header" id="header">
+			<h2 class="text-success ">Unidad Educativa Cristiano Vida Nueva</h2><br>
 			<h1 class="text-white mb-8">Cual es tu grado de escolaridad ? :<br><br></h1>
 
 			<div class="container">
@@ -79,9 +80,10 @@
 				<p>
 					<a class="btn btn-danger" data-toggle="collapse" href="#semana1" role="button" aria-expanded="false"
 						aria-controls="semana1">
-						Primera semana
+						<i class="far fa-calendar-alt"></i>
+						  Primera semana
 					</a>
-					<a class="btn btn-primary" data-toggle="collapse" href="#semana2" role="button"
+<!--					<a class="btn btn-primary" data-toggle="collapse" href="#semana2" role="button"
 						aria-expanded="false" aria-controls="semana2">
 						segunda semana
 					</a>
@@ -92,17 +94,45 @@
 					<a class="btn btn-primary" data-toggle="collapse" href="#semana4" role="button"
 						aria-expanded="false" aria-controls="semana4">
 						segunda semana
-					</a>
+					</a>-->
 				</p>
 				<div class="collapse show" id="semana1">
 					<div class="card card-body">
-						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque eligendi recusandae, cum
-						fugit maxime aliquid omnis tempora, sit illo ab facere quas reprehenderit voluptates. Culpa a
-						recusandae voluptatem ut illo?
-						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto quidem quia odio porro
-						deleniti minus illo aliquam qui nam unde, modi vero nesciunt voluptates? Impedit numquam
-						inventore voluptas qui eveniet?
-						1ra semana
+						<a href="https://drive.google.com/open?id=0B6qbhYNd_NPRV0NWMUFnQnlwYU0" target="_blank">
+							<div class="alert alert-primary" role="alert">
+								<i class="far fa-play-circle"></i>
+								YouTube - Video - "Complemento de Word"
+								<span class="badge badge-primary">23/Mayo/2020</span>
+							  </div>
+						</a>
+						<a href="#">
+							<div class="alert alert-secondary" role="alert">
+								<i class="fas fa-file-pdf"></i>
+								Pract. Sesion 2 Pag. 10 - Completamos la Pagina.
+								<span class="badge badge-secondary">23/Mayo/2020</span>
+							  </div>
+						</a>
+						<a href="#">
+							<div class="alert alert-danger" role="alert">
+								<i class="far fa-file-image"></i>
+								Tema. Cap. 1 Pag. 23 - Iniciamos con Word.
+								<span class="badge badge-danger">23/Mayo/2020</span>
+							  </div>
+						</a>
+						<a href="#">
+							<div class="alert alert-success" role="alert">
+								<i class="fas fa-volume-up"></i>
+								Sesion - Grabacion de sonido
+								<span class="badge badge-success">23/Mayo/2020</span>
+							  </div>
+						</a>
+						<a href="#">
+							<div class="alert alert-warning" role="alert">
+								<i class="fas fa-video"></i>
+								Sesion - Video Conferencia - planificado
+								<span class="badge badge-warning">23/Mayo/2020</span>
+							  </div>
+						</a>
 					</div>
 				</div>
 
@@ -150,7 +180,10 @@
 			<div class="contenedor-titulo">4to Secundaria</div>
 		</section>
 	</main>
+<footer>
+<div class="text-white">Unidad Educativa Cristiano Vida Nueva</div>
 
+</footer>
 
 	<!-- Modal primaria-->
 	<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog"
@@ -169,7 +202,9 @@
 									Comunitaria Vocacional</h2>
 								<!-- Portfolio Modal - Image-->
 								<div class="row">
+									
 									<div class="col-md-6 col-lg-4 mb-5">
+										<a href="#cuarto_prim" id="cerrar-modal"><!--Enviar al enlace y cerrar la ventana modal-->
 										<div class="portfolio-item mx-auto" data-toggle="modal"
 											data-target="#exampleModal">
 											<div
@@ -178,8 +213,12 @@
 													4to de Primaria</div>
 											</div>
 											<img class="img-fluid" src="media/libros/computacion_3.jpg" alt="">
+										<!-- 	<iframe id="cartoonVideo" width="560" height="315" src="//www.youtube.com/embed/YE7VzlLtp-4" frameborder="0" allowfullscreen></iframe>
+										 -->
 										</div>
+										</a>
 									</div>
+								
 									<div class="col-md-6 col-lg-4 mb-5">
 										<div class="portfolio-item mx-auto" data-toggle="modal"
 											data-target="#portfolioModal1">
@@ -325,6 +364,14 @@
 		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
 		crossorigin="anonymous"></script>
 	<script src="js/app.js"></script>
+	<script>
+$("#cerrar-modal").click(function (e) { 
+	
+	$(".portfolio-modal").modal("hide");
+	
+});
+
+	</script>
 </body>
 
 </html>
