@@ -19,16 +19,16 @@
 	<nav class="nav">
 		<a href="#" class="marca">Computacion NTIC</a>
 		<ul id="menu" class="menu">
-			<li data-menuanchor="inicio" class="active"><a href="#">Inicio</a></li>
-			<li data-menuanchor="" class="active"><a href="#">Primaria</a></li>
-			<li data-menuanchor="" class="active"><a href="#">Secundaria</a></li>
-			<li data-menuanchor="" class="active"><a href="#">BTH S.I.</a></li>
+			<li data-menuanchor="inicio" class="active"><a href="#header">Inicio</a></li>
+			<li data-menuanchor="cuartoP" class="active"><a href="#cuarto_prim">Primaria</a></li>
+			<li data-menuanchor="primeroS" class="active"><a href="#primero_sec">Secundaria</a></li>
+			<li data-menuanchor="cuartoS" class="active"><a href="#cuarto_sec">BTH S.I.</a></li>
 			<li><a href="#" class="btn btn-primary">Registrate</a></li>
 		</ul>
 	</nav>
 	<main id="fullpage">
-		<header class="section header">
-			<h1 class="text-white mb-8">Cual es tu grado de escolaridad?:<br><br></h1>
+		<header class="section header" id="header">
+			<h1 class="text-white mb-8">Cual es tu grado de escolaridad ? :<br><br></h1>
 
 			<div class="container">
 				<div class="row">
@@ -73,47 +73,81 @@
 
 
 		</header>
-		<section class="section cuarto_prim">
+		<section class="section cuarto_prim" id="cuarto_prim">
 			<div class="contenedor-titulo">4to primaria</div>
 			<div class="container">
 				<p>
-					<a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-					Primera semana
+					<a class="btn btn-danger" data-toggle="collapse" href="#semana1" role="button" aria-expanded="false"
+						aria-controls="semana1">
+						Primera semana
 					</a>
-					<a class="btn btn-primary" data-toggle="collapse" href="#ejemplo2" role="button" aria-expanded="false" aria-controls="ejemplo2">
+					<a class="btn btn-primary" data-toggle="collapse" href="#semana2" role="button"
+						aria-expanded="false" aria-controls="semana2">
 						segunda semana
-					  </a>
-				  </p>
-				  <div class="collapse" id="collapseExample">
+					</a>
+					<a class="btn btn-primary" data-toggle="collapse" href="#semana3" role="button"
+						aria-expanded="false" aria-controls="semana3">
+						segunda semana
+					</a>
+					<a class="btn btn-primary" data-toggle="collapse" href="#semana4" role="button"
+						aria-expanded="false" aria-controls="semana4">
+						segunda semana
+					</a>
+				</p>
+				<div class="collapse show" id="semana1">
 					<div class="card card-body">
-					  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque eligendi recusandae, cum fugit maxime aliquid omnis tempora, sit illo ab facere quas reprehenderit voluptates. Culpa a recusandae voluptatem ut illo?
-					  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto quidem quia odio porro deleniti minus illo aliquam qui nam unde, modi vero nesciunt voluptates? Impedit numquam inventore voluptas qui eveniet?
-					  1ra semana
+						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque eligendi recusandae, cum
+						fugit maxime aliquid omnis tempora, sit illo ab facere quas reprehenderit voluptates. Culpa a
+						recusandae voluptatem ut illo?
+						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto quidem quia odio porro
+						deleniti minus illo aliquam qui nam unde, modi vero nesciunt voluptates? Impedit numquam
+						inventore voluptas qui eveniet?
+						1ra semana
 					</div>
-				  </div>
-	
-				  <div class="collapse" id="ejemplo2">
+				</div>
+
+				<div class="collapse" id="semana2">
 					<div class="card card-body">
-					  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et illo assumenda itaque esse accusamus a deleniti eveniet! Blanditiis alias, excepturi neque placeat officiis, in praesentium voluptates ex sint tempora suscipit.
-					  2da semana
+						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et illo assumenda itaque esse
+						accusamus a deleniti eveniet! Blanditiis alias, excepturi neque placeat officiis, in praesentium
+						voluptates ex sint tempora suscipit.
+						2da semana
 					</div>
-				  </div>
+				</div>
+
+				<div class="collapse" id="semana3">
+					<div class="card card-body">
+						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et illo assumenda itaque esse
+						accusamus a deleniti eveniet! Blanditiis alias, excepturi neque placeat officiis, in praesentium
+						voluptates ex sint tempora suscipit.
+						2da semana
+					</div>
+				</div>
+
+				<div class="collapse" id="semana4">
+					<div class="card card-body">
+						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et illo assumenda itaque esse
+						accusamus a deleniti eveniet! Blanditiis alias, excepturi neque placeat officiis, in praesentium
+						voluptates ex sint tempora suscipit.
+						2da semana
+					</div>
+				</div>
 			</div>
 		</section>
-		<section class="section quinto_prim">
-			<h1>5to primaria</h1>
+		<section class="section quinto_prim" id="quinto_prim">
+			<div class="contenedor-titulo">5to Primaria</div>
 		</section>
-		<section class="section sexto_prim">
-			<h1>6to primaria</h1>
+		<section class="section sexto_prim" id="sexto_prim">
+			<div class="contenedor-titulo">6to Primaria</div>
 		</section>
-		<section class="section primero_sec">
-			<h1>1ro Secundaria</h1>
+		<section class="section primero_sec" id="primero_sec">
+			<div class="contenedor-titulo">1ro Secundaria</div>
 		</section>
-		<section class="section segundo_sec">
-			<h1>2do Secundaria</h1>
+		<section class="section segundo_sec" id="segundo_sec">
+			<div class="contenedor-titulo">2do Secundaria</div>
 		</section>
-		<section class="section cuarto_sec">
-			<h1>4to Secundaria</h1>
+		<section class="section cuarto_sec" id="cuarto_sec">
+			<div class="contenedor-titulo">4to Secundaria</div>
 		</section>
 	</main>
 
