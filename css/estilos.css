@@ -12,7 +12,14 @@ body {
   font-family: "Lato", sans-serif;
   font-size: 18px;
 }
-
+@font-face {
+  font-family: "roboto";
+  src: url(../font/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: "oswald";
+  src: url(../font/Oswald-VariableFont_wght.ttf);
+}
 h1,
 h2,
 h3,
@@ -47,7 +54,7 @@ h1 {
 /*Menu de navegacion*/
 /* --------------------------- */
 
-.nav{
+.nav {
   position: fixed;
   display: flex;
   align-items: center;
@@ -55,23 +62,30 @@ h1 {
   z-index: 70;
   width: 100%;
   margin: 0;
-  padding: 10px 20px;
+  padding: 10px 10px;
+  background: rgba(0, 0, 0, 0.281);
 }
-.nav li, .nav a {
+.nav .marca {
+  font-family: oswald;
+  font-size: 25px;
+  font-style: italic;
+}
+.nav li,
+.nav a {
   display: inline-block;
   margin: 10px;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'Oswald', sans-serif;
+  font-family: oswald, sans-serif;
   font-size: 19px;
-  color: #c2c2c2;
-  transition: .5s ease;
+  color: #ffffff;
+  transition: 0.5s ease;
 }
-.nav li.active{
+.nav li.active {
   border-bottom: 2px solid #fff;
 }
 .menu .li a {
-  transition: .5s ease;
+  transition: 0.5s ease;
   margin: 0;
   padding: 0;
 }
@@ -79,8 +93,9 @@ h1 {
 /* Estilos para la cabecera */
 /* ------------------------- */
 .header {
-  background: url(../media/fondo11.jpg);
-  background-position: center;
+  background: url(../media/fondo11.jpg) no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 .mb-5,
 .my-5 {
@@ -174,7 +189,7 @@ img {
   top: 1rem;
   font-size: 3rem;
   line-height: 3rem;
-  color: #1abc9c;
+  color: #e71212;
   opacity: 1;
 }
 .divider-custom .divider-custom-line {
@@ -189,48 +204,55 @@ img {
 /* Estilos para 4to Primaria */
 /* ------------------------- */
 .cuarto_prim {
-  background: url(../media/fondo1.jpg);
-  background-position: center;
+  background: url(../media/fondo1.jpg) no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
-.cuarto_prim .contenedor-titulo{
+.section .contenedor-titulo {
   text-align: center;
   position: relative;
   z-index: 99;
   color: #fff;
   font-size: 80px;
+  text-shadow: 0.1em 0.1em 0.2em black;
 }
 /* ------------------------- */
 /* Estilos para la cabecera */
 /* ------------------------- */
 .quinto_prim {
-  background: url(../media/fondo1.jpg);
-  background-position: center;
+  background: url(../media/fondo1.jpg) no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 /* ------------------------- */
 /* Estilos para la cabecera */
 /* ------------------------- */
 .sexto_prim {
-  background: url(../media/fondo1.jpg);
-  background-position: center;
+  background: url(../media/fondo1.jpg) no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 /* ------------------------- */
 /* Estilos para la cabecera */
 /* ------------------------- */
 .primero_sec {
-  background: url(../media/fondo10.jpg);
-  background-position: center;
+  background: url(../media/fondo10.jpg) no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 /* ------------------------- */
 /* Estilos para la cabecera */
 /* ------------------------- */
 .segundo_sec {
-  background: url(../media/fondo10.jpg);
-  background-position: center;
+  background: url(../media/fondo10.jpg) no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 /* ------------------------- */
 /* Estilos para la cabecera */
 /* ------------------------- */
 .cuarto_sec {
-  background: url(../media/fondo10.jpg);
-  background-position: center;
+  background: url(../media/fondo10.jpg) no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
