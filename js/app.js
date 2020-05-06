@@ -15,7 +15,23 @@ var seccionesPagina = new fullpage("#fullpage", {
   // ──────────────────────────────────────────────────
   navigation: true, // Muesta la barra de navegación.
   menu: "#menu", // Menu de navegación.
-  anchors: ["inicio", "productos", "contacto"], // Anclas, las usamos para identificar cada seccion y poder acceder a ellas con el menu.
-  navigationTooltips: ["Inicio", "Productos", "Contacto"], // Tooltips que mostrara por cada boton.
-  showActiveTooltip: false, // Mostrar tooltip activa.
+  anchors: [
+    "inicio",
+    "cuartoP",
+    "quintoP",
+    "sextoP",
+    "primeroS",
+    "segundoS",
+    "cuartoS",
+  ], // Anclas, las usamos para identificar cada seccion y poder acceder a ellas con el menu.
+  navigationTooltips: [
+    "Inicio",
+    "4to Primaria",
+    "5to Primaria",
+    "6to Primaria",
+    "1ro Secundaria",
+    "2do Secundaria",
+    "4to Secundaria",
+  ], // Tooltips que mostrara por cada boton.
+  showActiveTooltip: true, // Mostrar tooltip activa.
 });
