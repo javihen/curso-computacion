@@ -96,7 +96,12 @@ footer {
     font-size: 1.5em;
   }
   .section .contenedor-titulo {
-    font-size: 20px;
+    text-align: center;
+    position: relative;
+    z-index: 99;
+    color: #fff;
+    font-size: 40px;
+    text-shadow: 0.1em 0.1em 0.2em black;
   }
 }
 
@@ -254,7 +259,7 @@ img {
   position: relative;
   z-index: 99;
   color: #fff;
-  font-size: 80px;
+  font-size: 60px;
   text-shadow: 0.1em 0.1em 0.2em black;
 }
 /* ------------------------- */
