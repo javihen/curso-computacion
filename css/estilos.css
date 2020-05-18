@@ -80,6 +80,26 @@ footer {
   padding: 10px 10px;
   background: rgba(0, 0, 0, 0.281);
 }
+@media screen and (max-width: 900px) {
+  .menu {
+    display: none;
+  }
+  .header img {
+    display: none;
+  }
+  .header .container .btn {
+  }
+  h2 {
+    font-size: 1em;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+  .section .contenedor-titulo {
+    font-size: 20px;
+  }
+}
+
 .nav .marca {
   font-family: oswald;
   font-size: 25px;
