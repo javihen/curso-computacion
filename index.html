@@ -28,7 +28,7 @@
 			<li data-menuanchor="cuartoP" class="active"><a href="#cuarto_prim">Primaria</a></li>
 			<li data-menuanchor="primeroS" class="active"><a href="#primero_sec">Secundaria</a></li>
 			<li data-menuanchor="cuartoS" class="active"><a href="#cuarto_sec">BTH S.I.</a></li>
-			<li><a href="#" class="btn btn-primary">Registrate</a></li>
+			<li><a href="#" class="btn btn-primary registrate">Registrate</a></li>
 		</ul>
 	</nav>
 	<main id="fullpage">
@@ -971,14 +971,14 @@
 						</div>
 						<div class="col-lg-8 col-12">
 							<div class="card card-body">
-								<!-- <a href="https://drive.google.com/open?id=0B6qbhYNd_NPRV0NWMUFnQnlwYU0" target="_blank">
-									<div class="alert alert-primary" role="alert">
+								<a href="https://www.youtube.com/watch?v=6xG40V10bUM&t=362s" target="_blank">
+									<div class="alert alert-success" role="alert">
 										<i class="far fa-play-circle"></i>
-										YouTube - Video - "Complemento de Word"
-										<span class="badge badge-primary">23/Mayo/2020</span>
+										YouTube - Video - "Como entregar las tareas"
+										<span class="badge badge-success">24/Mayo/2020</span>
 									</div>
 								</a>
-								<a href="#">
+								<!-- <a href="#">
 									<div class="alert alert-secondary" role="alert">
 										<i class="fas fa-file-pdf"></i>
 										Pract. Sesion 2 Pag. 10 - Completamos la Pagina.
@@ -998,14 +998,14 @@
 										Sesion - Grabacion de sonido
 										<span class="badge badge-success">23/Mayo/2020</span>
 									</div>
-								</a> -->
+								</a>
 								<a href="#">
 									<div class="alert alert-warning" role="alert">
 										<i class="fas fa-video"></i>
 										Sesion - Video Conferencia - planificado
 										<span class="badge badge-warning">19/Mayo/2020</span>
 									</div>
-								</a>
+								</a> -->
 							</div>
 						</div>
 
@@ -1391,6 +1391,14 @@
 				imageHeight: 200,
 				imageAlt: 'Google Classroom',
 			})
+		});
+		$(" .registrate ").click(function (e) {
+			e.preventDefault();
+			Swal.fire(
+				'Ups?',
+				'Aun todavia no se sincronizo el listado para tu registro',
+				'Disculpa las molestias'
+			)
 		});
 
 		$(document).ready(function () {
