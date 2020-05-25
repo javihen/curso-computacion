@@ -312,3 +312,9 @@ img {
 .collapse .card .badge {
   float: right;
 }
+.sexto_sec,
+.quinto_sec {
+  background: url(../media/redes.jpg) no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
