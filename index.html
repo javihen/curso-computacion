@@ -16,6 +16,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 	<script src="sweetalert2.min.js"></script>
 	<link rel="stylesheet" href="sweetalert2.min.css">
+
 </head>
 
 <body>
@@ -240,7 +241,7 @@
 								<a href="#" id="alerta">
 									<div class="alert alert-danger" role="alert">
 										<i class="fas fa-file-pdf"></i>
-										Pract. Sesion 2.2 Pag. 10 - Completamos la Pagina. aqui esta el mensjae
+										Pract. Sesion 2.2 Pag. 10 - Completamos la Pagina.
 										<span class="badge badge-danger">19/Mayo/2020</span>
 									</div>
 								</a>
@@ -1378,6 +1379,20 @@
 
 		});
 
+
+
+		$(" #alerta ").click(function (e) {
+			e.preventDefault();
+			Swal.fire({
+				title: 'Aqui no esta la publicacion!',
+				text: 'Lastimosamente en esta pagina no esta la practica, pues  por derechos de autor no se puede mostrar ninguna parte del libro en publico. Si quieres ver la practica esta en el grupo de Classroom de tu materia. Te invito a que lo veas en la plataforma ya mencionada',
+				imageUrl: 'media/classroom.png',
+				imageWidth: 400,
+				imageHeight: 200,
+				imageAlt: 'Google Classroom',
+			})
+		});
+
 		$(document).ready(function () {
 
 			Swal.fire({
@@ -1394,16 +1409,8 @@
 			})
 
 
-			$("#alerta").click(function (e) {
-				Swal.fire({
-					title: 'Aqui no esta la publicacion!',
-					text: 'Lastimosamente en esta pagina no esta la practica, pues  por derechos de autor no se puede mostrar ninguna parte del libro en publico. Si quieres ver la practica esta en el grupo de Classroom de tu materia. Te invito a que lo veas en la plataforma ya mencionada',
-					imageUrl: 'media/classroom.png',
-					imageWidth: 400,
-					imageHeight: 200,
-					imageAlt: 'Custom image',
-				})
-			});
+
+
 
 		});
 
