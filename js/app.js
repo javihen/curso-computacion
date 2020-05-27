@@ -23,6 +23,8 @@ var seccionesPagina = new fullpage("#fullpage", {
     "primeroS",
     "segundoS",
     "cuartoS",
+    "quintoS",
+    "sextoS",
   ], // Anclas, las usamos para identificar cada seccion y poder acceder a ellas con el menu.
   navigationTooltips: [
     "Inicio",
@@ -32,6 +34,8 @@ var seccionesPagina = new fullpage("#fullpage", {
     "1ro Secundaria",
     "2do Secundaria",
     "4to Secundaria",
+    "5to Secundaria",
+    "6to Secundaria",
   ], // Tooltips que mostrara por cada boton.
   showActiveTooltip: true, // Mostrar tooltip activa.
 });
